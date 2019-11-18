@@ -1,3 +1,49 @@
 body{
     background-color: lightgrey;
+    
+}
+#navPrincipale{
+    display: flex;
+    background-color: whitesmoke;
+    margin: 0%;
+    font-size: 2em;
+    margin-left: 1%;
+    margin-right:1% ;
+    border-radius: 100px;
+
+}
+#navPrincipale a{
+
+    text-decoration: none;
+    color: violet;
+    margin: 50px;
+}
+
+a.ul {
+    padding: 10px 30px; 
+    background: blue; 
+    color: white; 
+    }
+    a.ul:hover {
+    background: red; 
+    }
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 34%;
+    margin-right: 30%;
+   
+   
+
+}
+
+#entete{
+    color: red;
+    text-align: center;
+    padding-bottom: 10%;
+}
+h1{
+    padding-bottom: 5%;
+
 }
